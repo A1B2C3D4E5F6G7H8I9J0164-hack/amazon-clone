@@ -215,3 +215,19 @@ ul a{
     padding-top: 5px;
 
 }
+@media (min-width: 768px) {
+    .shop-section {
+        flex-direction: row;
+    }
+    .box {
+        width: 45%;
+    }
+}
+@media (min-width: 1024px) {
+    .shop-section {
+        flex-direction: row;
+    }
+    .box {
+        width: 22%;
+    }
+}
